@@ -107,7 +107,6 @@ verify(const std::string &/*protocol*/,
 bool verify(const conduit::Node &n,
             Node &info)
 {
-    info.reset();
     bool res = true;
 
     const std::string proto_name = "o2mrelation";
